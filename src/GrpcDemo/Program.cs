@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Configure Kestrel to listen on a specific Http2 only port
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(8080);
+    //options.ListenAnyIP(8080);
     options.ListenAnyIP(8585, listenOptions =>
     {
         listenOptions.Protocols = HttpProtocols.Http2;
