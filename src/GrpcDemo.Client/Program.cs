@@ -1,7 +1,7 @@
 using Grpc.Net.Client;
 using GrpcDemo;
 
-using var channel = GrpcChannel.ForAddress("https://localhost:7194");
+using var channel = GrpcChannel.ForAddress("https://grpcdemo20231109214059.azurewebsites.net");
 
 var greeterClient = new Greeter.GreeterClient(channel);
 
