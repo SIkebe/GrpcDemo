@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/GrpcDemo/bin/Debug/net6.0/GrpcDemo.dll",
+            "program": "${workspaceFolder}/src/GrpcDemo/bin/Debug/net8.0/GrpcDemo.dll",
             "args": [],
             "cwd": "${workspaceFolder}/src/GrpcDemo",
             "stopAtEntry": false,
